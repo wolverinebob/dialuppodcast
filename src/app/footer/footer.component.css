@@ -3,12 +3,12 @@
     left: 0;
     bottom: 0;
     float: left;
-    width: 100%;
-    
+    width: 100%; 
     
  }
  .footer {
     width: 100%;
+    min-height: 80pt;
     margin: auto;
     text-align: center;
     max-height: 100pt;
