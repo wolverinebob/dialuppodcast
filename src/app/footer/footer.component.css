@@ -1,0 +1,30 @@
+.stick {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    float: left;
+    width: 100%;
+    
+    
+ }
+ .footer {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    max-height: 100pt;
+    max-width: 480pt;
+    background-color: black;
+}
+ /* .responsive {
+    float: left;
+  padding: 0 6px;
+  width: 20%;
+  max-width: 150pt;
+}
+@media only screen and (max-width: 900px) {
+  .responsive {
+      float: center;
+    width: 24.99%;
+    margin: 0px 0;
+  }
+} */
