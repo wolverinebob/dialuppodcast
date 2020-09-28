@@ -4,11 +4,11 @@
     bottom: 0;
     float: left;
     width: 100%; 
-    
+    background-color: rgb(18, 64, 143);    
  }
  .footer {
     width: 100%;
-    min-height: 80pt;
+    /* min-height: 80pt; */
     margin: auto;
     text-align: center;
     max-height: 100pt;
