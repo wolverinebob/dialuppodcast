@@ -4,7 +4,8 @@
     bottom: 0;
     float: left;
     width: 100%; 
-    background-color: rgb(18, 64, 143);    
+    background: rgb(18,64,143);
+    /* background: linear-gradient(90deg, rgba(18,64,143,1) 0%, rgb(0, 0, 0) 100%);    */
  }
  .footer {
     width: 100%;

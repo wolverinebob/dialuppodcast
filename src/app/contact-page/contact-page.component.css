@@ -1,4 +1,7 @@
-   
+   .container {
+    align: center;
+   }
+
     div.gallery img {
         width: 100%;
         height: auto;
@@ -7,16 +10,20 @@
       * {
         box-sizing: border-box;
       }
-      
+    div.icons{
+      /* display: inline-block;
+      text-align: center; */
+      margin: auto;
+    }
       .responsive {
-          float: left;
+        float: left;
         padding: 0 6px;
         width: 20%;
         max-width: 150pt;
       }
       @media only screen and (max-width: 900px) {
         .responsive {
-            float: center;
+            float: left;
           width: 24.99%;
           margin: 0px 0;
         }
