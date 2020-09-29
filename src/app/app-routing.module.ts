@@ -1,3 +1,4 @@
+import { SocialMediaComponent } from './social-media/social-media.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
@@ -8,10 +9,8 @@ const routes: Routes = [
   {path:  "", pathMatch:  "full",redirectTo:  "home"},
   {path: "home", component: HomeComponent},
   {path: "about", component: AboutComponent},
-  {path: "contact", component: ContactPageComponent} 
-  // {path: "city-view", component: CityViewComponent},
-  // {path: "dfw", component: ViewDFWComponent},
-  // {path: "phl", component: ViewPHLComponent},
+  {path: "contact", component: ContactPageComponent}, 
+  {path: "social-media", component: SocialMediaComponent}
 ];
 
 @NgModule({

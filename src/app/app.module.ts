@@ -14,6 +14,7 @@ import { ShopComponent } from './shop/shop.component';
 import { BlogComponent } from './blog/blog.component';
 import { FooterComponent } from './footer/footer.component';
 import { SubBtnComponent } from './sub-btn/sub-btn.component';
+import { SocialMediaComponent } from './social-media/social-media.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SubBtnComponent } from './sub-btn/sub-btn.component';
     ShopComponent,
     BlogComponent,
     FooterComponent,
-    SubBtnComponent
+    SubBtnComponent,
+    SocialMediaComponent
   ],
   imports: [
     BrowserModule,
