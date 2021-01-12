@@ -29,7 +29,7 @@ import { SocialMediaComponent } from './social-media/social-media.component';
     BlogComponent,
     FooterComponent,
     SubBtnComponent,
-    SocialMediaComponent
+    SocialMediaComponent,
   ],
   imports: [
     BrowserModule,
